@@ -1,4 +1,15 @@
+import pandas as pd
 
+# Read the CSV file from the URL
+url = "https://github.com/Sashi09/Sashi-Python/raw/main/PANDAS%20DATA"
+df = pd.read_csv(url)
+
+# Display the DataFrame
+print(df)
+
+# Perform any operations needed on the DataFrame
+# For example, displaying the first few rows of the DataFrame
+print(df.head())
   "cells": [
     {
       "cell_type": "markdown",
